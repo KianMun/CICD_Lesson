@@ -14,9 +14,9 @@ jobs:
       id: get_date_in_github
       run: echo "date in github $(date)"
     
-    - name: list directory
-      id: list_directory
-      run: echo "$(ls -l)"
+    #- name: list directory
+      #id: list_directory
+      #run: echo "$(ls -l)"
     
     - name: echo github context
       id: githun_context
